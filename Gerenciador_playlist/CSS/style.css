@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    gap: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    position: relative;
+}
+
+
+.menu-superior {
+    align-items: center;
+    background: #1A1A1A;
+    list-style: none;
+    padding: 10px 0px;
+    position: fixed;
+}
+
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Hover */
+li a:hover {
+    background: rgb(83, 83, 83);
+    border-radius: 100px;
+}
+
+.titulo-principal {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 130px;
+    font-size: 50px;
+}
+
+.titulo-user {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+.sub-titulo {
+    color: #ffffff;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.info-musicas {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 1px;
+}
+
+.box-musicas {
+    width: 500;
+    height: 700;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: #121212;
+    margin-top: 30px;
+}
+
+.box-musicas:hover {
+    border: 1px solid green;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nome-musica {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.artista {
+    color: #b9b9b9;
+    margin-left: 45px;
+}
+
+.tempo {
+    color: #7D7D7D;
+    margin-left: 220px;
+}
+
+.cadbtn{
+    margin-left: 100px;
+    height: 65px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 165px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(5, 42, 155);
+}
+
+.cadbtn:hover{
+    margin-left: 100px;
+    height: 65px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 165px;
+    border-radius: 100px;
+    color:white;
+    background-color: rgb(3, 32, 119) ;
+}
+
+
+.boxcad{
+    background-color: #1a1a1a ;
+    width: 550px;
+    height: 750px;
+    margin-left: 695px;
+    margin-top: 155px;
+    border-radius: 10px;
+}
